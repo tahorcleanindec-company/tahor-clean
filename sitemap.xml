@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://tahor-clean.com/</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Todas las imágenes de la carpeta img -->
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/altagracias.jpg</image:loc>
+      <image:title>Altagracias</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/ba.png</image:loc>
+      <image:title>BA</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/cardio.png</image:loc>
+      <image:title>Cardio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/clinicadelsol.png</image:loc>
+      <image:title>Clínica del Sol</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/dron.mp4</image:loc>
+      <image:title>Video Drone</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/elbloke.png</image:loc>
+      <image:title>El Bloke</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/empresa.jpeg</image:loc>
+      <image:title>Empresa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/jaramijo.jpg</image:loc>
+      <image:title>Jaramijo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/logo.ico</image:loc>
+      <image:title>Logo ICO</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/logo.png</image:loc>
+      <image:title>Logo PNG</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/man.png</image:loc>
+      <image:title>Man</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/mantahospital.png</image:loc>
+      <image:title>Manta Hospital</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/matriz.jpg</image:loc>
+      <image:title>Matriz</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/msp.png</image:loc>
+      <image:title>MSP</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/plantain.png</image:loc>
+      <image:title>Planta In</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/poseidon.png</image:loc>
+      <image:title>Poseidon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/pro.jpg</image:loc>
+      <image:title>Proyecto 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/prope.png</image:loc>
+      <image:title>Proyecto 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/puertomar.png</image:loc>
+      <image:title>Puerto Mar</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tahor-clean.com/img/wy.webp</image:loc>
+      <image:title>WY</image:title>
+    </image:image>
+  </url>
+
+  <!-- Página principal de HTML -->
+  <url>
+    <loc>https://tahor-clean.com/index.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Script JS -->
+  <url>
+    <loc>https://tahor-clean.com/script.js</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- CSS -->
+  <url>
+    <loc>https://tahor-clean.com/styles.css</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
