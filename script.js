@@ -1,12 +1,8 @@
-/* =====================================================
-   TAHOR CLEAN - PREMIUM JAVASCRIPT
-   ===================================================== */
+
 
 document.addEventListener('DOMContentLoaded', function() {
     
-    // =====================================================
-    // INICIALIZAR ANIMACIONES AOS (SCROLL)
-    // =====================================================
+
     const aosElements = document.querySelectorAll('[data-aos]');
     
     const aosObserver = new IntersectionObserver((entries) => {
@@ -22,10 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
     
     aosElements.forEach(el => aosObserver.observe(el));
-    
-    // =====================================================
-    // PRELOADER (opcional - descomentar si se agrega)
-    // =====================================================
+   
     const preloader = document.getElementById('preloader');
     
     window.addEventListener('load', function() {
@@ -38,9 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500);
     });
 
-    // =====================================================
-    // CURSOR PERSONALIZADO
-    // =====================================================
+    
     const cursor = document.querySelector('.cursor');
     const cursorFollower = document.querySelector('.cursor-follower');
     
@@ -55,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 100);
         });
 
-        // Efecto hover en links y botones
         const hoverElements = document.querySelectorAll('a, button, .solution-card, .stat-item');
         hoverElements.forEach(el => {
             el.addEventListener('mouseenter', () => {
@@ -69,9 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // =====================================================
-    // MENÚ MÓVIL
-    // =====================================================
+    
     const menuToggle = document.getElementById('menuToggle');
     const nav = document.getElementById('nav');
     
@@ -90,9 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // =====================================================
-    // HEADER SCROLL EFFECT
-    // =====================================================
+    
     const header = document.getElementById('header');
     
     window.addEventListener('scroll', function() {
@@ -103,9 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // =====================================================
-    // SMOOTH SCROLL
-    // =====================================================
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -123,9 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // =====================================================
-    // CONTADOR ANIMADO
-    // =====================================================
+   
     const counters = document.querySelectorAll('.stat-number');
     let countersAnimated = false;
     
@@ -151,9 +133,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // =====================================================
-    // INTERSECTION OBSERVER - ANIMACIONES AL SCROLL
-    // =====================================================
     const observerOptions = {
         threshold: 0.15,
         rootMargin: '0px 0px -100px 0px'
@@ -175,7 +154,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
     
-    // Observar elementos con clase fade-in
     document.querySelectorAll('.fade-in').forEach(el => {
         fadeInObserver.observe(el);
     });
@@ -186,9 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fadeInObserver.observe(statsSection);
     }
     
-    // =====================================================
-    // STAGGER ANIMATION PARA TARJETAS
-    // =====================================================
+   
     const staggerObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -207,9 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
         staggerObserver.observe(el);
     });
     
-    // =====================================================
-    // PARALLAX EFFECT HERO
-    // =====================================================
+  
     const heroSection = document.querySelector('.hero');
     const floatingElements = document.querySelectorAll('.floating-shape');
     
@@ -227,9 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // =====================================================
-    // FORMULARIO DE CONTACTO - WHATSAPP
-    // =====================================================
+
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
@@ -260,7 +232,6 @@ _Enviado desde tahorclean.com_`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
             const whatsappNumber = '+593958812843'; // CAMBIAR POR NÚMERO REAL
             
-            // Efecto de envío
             const submitBtn = contactForm.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
@@ -279,9 +250,7 @@ _Enviado desde tahorclean.com_`;
         });
     }
     
-    // =====================================================
-    // ACTIVE LINK HIGHLIGHT
-    // =====================================================
+    
     const sections = document.querySelectorAll('section[id]');
     const navLinksAll = document.querySelectorAll('.nav-link');
     
@@ -303,9 +272,7 @@ _Enviado desde tahorclean.com_`;
         });
     });
     
-    // =====================================================
-    // MARQUEE PAUSAR AL HOVER
-    // =====================================================
+   
     const marqueeTrack = document.querySelector('.marquee-track');
     
     if (marqueeTrack) {
@@ -318,9 +285,7 @@ _Enviado desde tahorclean.com_`;
         });
     }
     
-    // =====================================================
-    // TYPED TEXT EFFECT (OPCIONAL)
-    // =====================================================
+
     const typedElement = document.querySelector('.typed-text');
     
     if (typedElement) {
@@ -355,9 +320,7 @@ _Enviado desde tahorclean.com_`;
         typeEffect();
     }
 
-    // =====================================================
-    // BOTÓN SCROLL TO TOP
-    // =====================================================
+    
     const scrollTopBtn = document.getElementById('scrollTop');
     
     if (scrollTopBtn) {
@@ -377,9 +340,7 @@ _Enviado desde tahorclean.com_`;
         });
     }
 
-    // =====================================================
-    // TILT EFFECT EN TARJETAS (3D)
-    // =====================================================
+    
     const tiltCards = document.querySelectorAll('.tilt-card');
     
     tiltCards.forEach(card => {
@@ -406,14 +367,12 @@ _Enviado desde tahorclean.com_`;
          document.getElementById("contactForm").addEventListener("submit", function(e) {
          e.preventDefault();
 
-    // Obtener valores
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const phone = document.getElementById("phone").value;
     const company = document.getElementById("company").value;
     const message = document.getElementById("message").value;
 
-    // Armar mensaje
     const text = `Hola, tengo una consulta:%0A%0A
 Nombre: ${name}%0A
 Email: ${email}%0A
@@ -421,13 +380,10 @@ Teléfono: ${phone}%0A
 Empresa: ${company}%0A
 Mensaje: ${message}`;
 
-    // Número (sin + ni espacios)
     const numero = "+593958812843";
 
-    // URL WhatsApp
     const url = `https://wa.me/${numero}?text=${text}`;
 
-    // Redirigir
     window.open(url, "_blank");
 });
 
