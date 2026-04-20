@@ -1,10 +1,4 @@
-/* =====================================================
-   TAHOR CLEAN - PREMIUM PROFESSIONAL STYLES
-   Colores del Logo:
-   - Azul agua: #0099D6
-   - Verde hoja: #4CAF50, #8BC34A  
-   - Azul oscuro: #1A365D
-   ===================================================== */
+
 
 :root {
     --blue-water: #0099D6;
@@ -107,7 +101,6 @@ h1, h2, h3, h4, h5, h6 {
     background-clip: text;
 }
 
-/* BUTTONS */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -163,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
 .btn-glow:hover::after { opacity: 0.5; }
 .btn-full { width: 100%; }
 
-/* HEADER */
 .header {
     position: fixed;
     top: 0;
@@ -250,7 +242,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header.scrolled .menu-toggle span { background: var(--gray-700); }
 
-/* HERO */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -261,7 +252,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-background { position: absolute; inset: 0; z-index: -1; }
 
-/* VIDEO DE FONDO */
 .hero-video {
     position: absolute;
     top: 50%;
@@ -461,7 +451,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @keyframes scroll { 0% { transform: translateX(-50%) translateY(0); opacity: 1; } 100% { transform: translateX(-50%) translateY(12px); opacity: 0; } }
 
-/* MARQUEE */
 .marquee-section {
     padding: 80px 0;
     background: var(--gray-50);
@@ -509,7 +498,6 @@ h1, h2, h3, h4, h5, h6 {
 .client-logo-box:hover { border-color: var(--blue-water); color: var(--blue-water); box-shadow: var(--shadow-md); }
 @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
-/* ABOUT */
 .about { padding: var(--section-padding) 0; background: var(--white); }
 .about-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .about-visual { position: relative; }
@@ -647,7 +635,6 @@ h1, h2, h3, h4, h5, h6 {
 .solution-cta:hover { color: var(--blue-water-dark); }
 .solution-cta:hover svg { transform: translateX(4px); }
 
-/* ADVANTAGES */
 .advantages { padding: 80px 0; background: var(--blue-dark); }
 .advantages-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
 .advantage-card {
@@ -673,7 +660,6 @@ h1, h2, h3, h4, h5, h6 {
 .advantage-card h3 { font-size: 1.25rem; font-weight: 700; color: var(--white); margin-bottom: 12px; }
 .advantage-card p { font-size: 0.9375rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
 
-/* TESTIMONIALS */
 .testimonials { padding: var(--section-padding) 0; background: var(--white); }
 .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .testimonial-card {
@@ -710,7 +696,6 @@ h1, h2, h3, h4, h5, h6 {
 .author-info strong { display: block; font-size: 1rem; color: var(--blue-dark); margin-bottom: 4px; }
 .author-info span { font-size: 0.875rem; color: var(--gray-500); }
 
-/* CTA */
 .cta-section { position: relative; padding: 100px 0; background: var(--gradient-hero); overflow: hidden; }
 .cta-background { position: absolute; inset: 0; pointer-events: none; }
 .cta-shape { position: absolute; border-radius: 50%; background: rgba(255,255,255,0.05); }
@@ -722,7 +707,6 @@ h1, h2, h3, h4, h5, h6 {
 .cta-buttons { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
 .cta-buttons .btn svg { width: 24px; height: 24px; }
 
-/* CONTACT */
 .contact { padding: var(--section-padding) 0; background: var(--gray-50); }
 .contact-wrapper { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 .contact-info .section-title { margin-bottom: 16px; }
@@ -788,7 +772,6 @@ h1, h2, h3, h4, h5, h6 {
 .form-group textarea { resize: vertical; min-height: 120px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 
-/* FOOTER */
 .footer { padding: 80px 0 40px; background: var(--blue-navy); }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 60px; margin-bottom: 60px; }
 .footer-logo { height: 90px; width: auto; margin-bottom: 20px; filter: brightness(0) invert(1); }
@@ -801,7 +784,6 @@ h1, h2, h3, h4, h5, h6 {
 .footer-bottom { padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; }
 .footer-bottom p { font-size: 0.875rem; color: rgba(255,255,255,0.5); }
 
-/* WHATSAPP */
 .whatsapp-float {
     position: fixed;
     bottom: 32px;
@@ -846,7 +828,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .whatsapp-float:hover .whatsapp-tooltip { opacity: 1; visibility: visible; transform: translateX(0); }
 
-/* ANIMATIONS */
 [data-aos] { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
 [data-aos].aos-animate { opacity: 1; transform: translateY(0); }
 [data-aos="fade-right"] { transform: translateX(-30px); }
@@ -854,7 +835,6 @@ h1, h2, h3, h4, h5, h6 {
 [data-aos="fade-left"] { transform: translateX(30px); }
 [data-aos="fade-left"].aos-animate { transform: translateX(0); }
 
-/* RESPONSIVE */
 @media (max-width: 1200px) {
     .solutions-grid { grid-template-columns: repeat(2, 1fr); }
     .advantages-grid { grid-template-columns: repeat(2, 1fr); }
@@ -918,7 +898,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* BOTONES CARDS */
 .card-buttons {
     margin-top: 15px;
     display: flex;
@@ -942,13 +921,11 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-/* ICONOS */
 .icon {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-/* PREMIUM CARDS */
 .premium-card {
     transition: all 0.3s ease;
     border-radius: 12px;
@@ -1034,7 +1011,6 @@ img, video {
 }
 
 
-/* ASEGURAR QUE EL MENU CUBRA TODO */
 .nav {
     position: center;
     inset: 0;

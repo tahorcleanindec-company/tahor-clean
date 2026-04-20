@@ -230,7 +230,7 @@ ${message}
 _Enviado desde tahorclean.com_`;
             
             const encodedMessage = encodeURIComponent(whatsappMessage);
-            const whatsappNumber = '+593958812843'; // CAMBIAR POR NÚMERO REAL
+            const whatsappNumber = '+593958812843'; 
             
             const submitBtn = contactForm.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
@@ -392,34 +392,3 @@ Mensaje: ${message}`;
     
 });
 
-/* =====================================================
-   CÓMO AGREGAR NUEVA SECCIÓN
-   =====================================================
-   
-   1. En el HTML, copia una sección existente y modifica:
-   
-   <section id="nueva-seccion" class="section fade-in">
-       <div class="container">
-           <div class="section-header">
-               <span class="section-badge">Nuevo</span>
-               <h2 class="section-title">Tu Título</h2>
-               <p class="section-subtitle">Tu descripción</p>
-           </div>
-           <div class="stagger-container">
-               <!-- Tu contenido aquí -->
-           </div>
-       </div>
-   </section>
-   
-   2. Para tarjetas con animación escalonada, usa:
-   
-   <div class="card stagger-item">
-       <!-- Contenido -->
-   </div>
-   
-   3. Para animación 3D tilt, añade clase "tilt-card"
-   
-   4. Para cambiar el número de WhatsApp:
-      Busca "whatsappNumber" y cambia "593999999999"
-   
-   ===================================================== */
